@@ -22,8 +22,8 @@
     margin: var(--m-1);
 }
 
-.jakob {
-    -webkit-text-stroke: 1px rgb(93, 99, 9);
+.Clarens {
+    /* -webkit-text-stroke: 1px rgb(93, 99, 9); */
     color: var(--contrast);
 }
 

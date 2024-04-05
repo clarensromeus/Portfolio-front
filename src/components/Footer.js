@@ -10,8 +10,8 @@ function Footer() {
         <footer className="footer" id="footer">
             <div className="container-footer">
                 <div>
-                    <h2 className='footer-name'>Jakob Shavinski ©2023</h2>
-                    <h2 className='footer-title'>Fullstack Engineer</h2>
+                    <h2 className='footer-name'>Romeus Clarens ©2024</h2>
+                    <h2 className='footer-title'>Fullstack software developer</h2>
                 </div>
                 <div className='container-socials'>
                     {socials.map((s) => (

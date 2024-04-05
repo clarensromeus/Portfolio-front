@@ -25,7 +25,7 @@ function NavBar() {
         <ul className="container-logo">
           <li>
             <a className='home-link' href="#home" aria-label='Go back to top of webpage'>
-              <div className="navbar-name"><span className="navbar-initial">J</span>akob <span className="navbar-initial">S</span>havinski</div>
+              <div className="navbar-name"><span className="navbar-initial">R</span>omeus <span className="navbar-initial">C</span>larens</div>
             </a>
           </li>
         </ul>
@@ -34,6 +34,7 @@ function NavBar() {
             <li className="nav-item"><a href="#aboutme" aria-label='Go to about me' className="nav-link" onClick={hideNavMenu}>About Me</a></li>
             <li className="nav-item"><a href="#skills" aria-label='Go to skills' className="nav-link" onClick={hideNavMenu}>Skills</a></li>
             <li className="nav-item"><a href="#projects" aria-label='Go to projects' className="nav-link" onClick={hideNavMenu}>Projects</a></li>
+            <li className="nav-item"><a href="#blogs" aria-label='Go to blogs' className="nav-link" onClick={hideNavMenu}>Blogs</a></li>
             <li className="nav-item"><a href="#contact" aria-label='Go to contact me' className="nav-link" onClick={hideNavMenu}>Contact</a></li>
           </ul>
           <div ref={hamburgerRef} className="hamburger" onClick={showHamburger}>

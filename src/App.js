@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
+import ScrollToTopFn from './components/ScrollToTopFn';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <ContactMe />
       <Footer />
+ .    <ScrollToTopFn/>
     </div>
   );
 }

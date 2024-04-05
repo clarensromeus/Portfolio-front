@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
-<head>
-  <meta charset="utf-8" />
-  <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="./style.css" />
 
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <link rel="stylesheet" href="./style.css">
+    <title>Romeus clarens</title>
+  </head>
 
-  <title>Jakob Shavinski</title>
-</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
 
-<body>
+    <!-- Netlify form -->
+    <form
+      name="contact"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
+      style="display: none"
+    >
+      <input type="text" name="name" required />
+      <input type="email" name="email" required />
+      <textarea name="message" required></textarea>
+    </form>
 
-
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-
-  <!-- Netlify form -->
-  <form name="contact" netlify netlify-honeypot="bot-field" hidden style="display:none;">
-    <input type="text" name="name" required />
-    <input type="email" name="email" required />
-    <textarea name="message" required></textarea>
-  </form>
-
-  <!-- <script src="lazysizes.min.js" async></script> -->
-</body>
-
+    <!-- <script src="lazysizes.min.js" async></script> -->
+  </body>
 </html>

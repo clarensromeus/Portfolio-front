@@ -1,3 +1,5 @@
+// external imports of module
+import { Typewriter } from "react-simple-typewriter"
 import './Home.css'
 import Blob from './Blob'
 import SocialLogo from './SocialLogo'
@@ -46,8 +48,11 @@ function Home() {
                     transition={{ ease: "easeInOut", duration: .7 }}
                     viewport={{ once: true }}
                     className='container-info'>
-                    <h1 className='info-intro'>Welcome my name is <span className='jakob'>Jakob</span></h1>
-                    <h2 className='info-details'>I am a <span className='jakob'>full-stack engineer</span> with a passion for learning and exploring new technologies.</h2>
+                    <h1 className='info-intro'>Welcome To my <span className='Clarens'>Personal site</span></h1>
+                    <h2 className='info-details'>I am  
+                    <span className='Clarens'>
+                        <Typewriter  words={[" Romeus clarens", " a Full-stack sofware developer", " of 5 years of experience"]} loop={true} cursor={true}/>
+                    </span> with a passion for learning and exploring new technologies.</h2>
                 </motion.div>
 
                 <motion.div
