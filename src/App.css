@@ -214,6 +214,7 @@ button {
   color: var(--contrast);
   margin: var(--m-4);
   z-index: 3;
+  /*  */
 }
 
 .number-section {
