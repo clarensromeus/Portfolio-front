@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.497d3200.css",
+    "main.js": "/static/js/main.1b03081f.js",
+    "static/js/787.7efd31bd.chunk.js": "/static/js/787.7efd31bd.chunk.js",
+    "static/media/twitter-verified-pattern.webp": "/static/media/twitter-verified-pattern.79adc19f20fc690a1291.webp",
+    "static/media/Rubik-VariableFont_wght.ttf": "/static/media/Rubik-VariableFont_wght.8b975fd73aa3f560c113.ttf",
+    "static/media/jobly-img.webp": "/static/media/jobly-img.6175e41e1b4382568298.webp",
+    "static/media/deep-dark-space-destkop-backgrounds.webp": "/static/media/deep-dark-space-destkop-backgrounds.98d2c99dd749a688e2b1.webp",
+    "static/media/RussoOne-Regular.ttf": "/static/media/RussoOne-Regular.b2f5b287ccb8fd446eae.ttf",
+    "static/media/shaka.webp": "/static/media/shaka.be09dbcdc13b97dd20ea.webp",
+    "index.html": "/index.html",
+    "main.497d3200.css.map": "/static/css/main.497d3200.css.map",
+    "main.1b03081f.js.map": "/static/js/main.1b03081f.js.map",
+    "787.7efd31bd.chunk.js.map": "/static/js/787.7efd31bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.497d3200.css",
+    "static/js/main.1b03081f.js"
+  ]
+}
