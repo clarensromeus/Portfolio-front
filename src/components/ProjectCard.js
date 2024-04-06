@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function ProjectCard({ project }) {
 
     const cardImgStyle = {
-        backgroundImage: `url(${project.image})`
+        backgroundImage: `url(${project.image})`,
     }
 
     return (

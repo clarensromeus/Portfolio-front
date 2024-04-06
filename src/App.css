@@ -211,7 +211,6 @@ button {
 
 .title {
   font-size: clamp(var(--font-medium), 1vw + 2.5rem, var(--font-large));
-  -webkit-text-stroke: 1px rgb(159, 151, 7);
   color: var(--contrast);
   margin: var(--m-4);
   z-index: 3;
