@@ -12,7 +12,7 @@ function ContactMe() {
                 transition={{ ease: "easeInOut", duration: .7 }}
                 viewport={{ once: true }}
                 className='number-section'>
-                04
+                05
             </motion.div>
             <motion.h2
                 initial={{ opacity: 0, scale: 0 }}

@@ -1,7 +1,9 @@
 import { useRef } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBarsStaggered, faArrowUp } from '@fortawesome/free-solid-svg-icons'
 import "./NavBar.css";
 
-function NavBar() {
+function NavBar({children}) {
   const navRef = useRef();
   const hamburgerRef = useRef();
   const navMenuRef = useRef();
@@ -30,13 +32,7 @@ function NavBar() {
           </li>
         </ul>
         <div>
-          <ul ref={navMenuRef} className="nav-menu">
-            <li className="nav-item"><a href="#aboutme" aria-label='Go to about me' className="nav-link" onClick={hideNavMenu}>About Me</a></li>
-            <li className="nav-item"><a href="#skills" aria-label='Go to skills' className="nav-link" onClick={hideNavMenu}>Skills</a></li>
-            <li className="nav-item"><a href="#projects" aria-label='Go to projects' className="nav-link" onClick={hideNavMenu}>Projects</a></li>
-            <li className="nav-item"><a href="#blogs" aria-label='Go to blogs' className="nav-link" onClick={hideNavMenu}>Blogs</a></li>
-            <li className="nav-item"><a href="#contact" aria-label='Go to contact me' className="nav-link" onClick={hideNavMenu}>Contact</a></li>
-          </ul>
+          {children(navMenuRef, hideNavMenu)}
           <div ref={hamburgerRef} className="hamburger" onClick={showHamburger}>
             <span className="bar"></span>
             <span className="bar"></span>

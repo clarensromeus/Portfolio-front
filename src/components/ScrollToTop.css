@@ -3,8 +3,39 @@
     transition: all ease-in-out 0.5s;
 }
 
-.scrollToTop:hover {
-    background-color: yellow;
+
+.parent {
+  margin: 0px;
 }
+
+.parent::after {
+content: "";
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    width: 10px;
+    height: 10px;
+    margin-right: -5px;
+    margin-left: -5px;
+    transform: scale(0);
+    background-color: #D9C427;
+    z-index: -1;
+    transition: all .2s
+}
+
+.parent:hover::after {
+   transform: scale(4); 
+   border-radius: 18%; 
+}
+
+.icon {
+    font-size: 1.4rem;
+    z-index: 3;
+}
+
+.parent:hover .icon {
+   color: #6C6C6C
+}
+
 
 /* fsf */

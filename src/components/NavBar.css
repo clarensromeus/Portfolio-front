@@ -66,6 +66,16 @@
     width: 100%;
 }
 
+.nav-link[data-active="true"]::after {
+    width: 100%
+}
+
+/* .active {
+   border-bottom-style: solid;
+   border-bottom-width: 2px;
+   border-bottom-color: var(--contrast);
+} */
+
 .hamburger {
     display: none;
     cursor: pointer;
