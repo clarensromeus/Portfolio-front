@@ -38,7 +38,7 @@ function Skills() {
                             transition={{ ease: "easeInOut", duration: .7 }}
                             viewport={{ once: true }}
                             className='tech-container-title'>
-                            Languages
+                            Languages / databases
                         </motion.h3>
                     </div>
 

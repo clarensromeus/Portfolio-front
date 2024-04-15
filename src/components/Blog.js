@@ -1,40 +1,54 @@
 import './Blog.css'
-import ProjectCard from './ProjectCard';
-import projects from '../assets/projects'
-import { v4 as uuidv4 } from 'uuid';
+import Blogs from "../assets/blogs"
 
 import { motion } from "framer-motion";
 
-function Projects() {
-    return (
-        <section className="blogs" id="blogs">
 
-            <div className='blogs-container'>
+function AboutMe() {
+
+    return (
+        <section className='aboutme' id='aboutme'>
+            <div
+                className='container-aboutme'>
 
                 <motion.div
                     initial={{ opacity: 0, y: 75 }}
                     whileInView={{ opacity: .7, y: 0 }}
                     transition={{ ease: "easeInOut", duration: .7 }}
-                    viewport={{ once: true }} className='number-section'>04</motion.div>
+                    viewport={{ once: true }}
+                    className='number-section'>04</motion.div>
 
                 <motion.h2
                     initial={{ opacity: 0, scale: 0 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ ease: "easeInOut", duration: .7 }}
                     viewport={{ once: true }}
-                    className='projects-title title'>
-                    My Blogs
+                    className='aboutme-title title'>
+                     My Blogs
                 </motion.h2>
 
-                {projects.map((project) => (
-                    <ProjectCard
-                        key={uuidv4()}
-                        project={project} />
-                ))}
 
+                <div className='container-about-knowledge'>
+                    {Blogs.map((blogs, index)=> {
+                        return (
+                            <a className="goTo" href={`#${blogs.link}`}>
+                             <motion.div
+                                key={index}
+                                initial={{ opacity: 0, x: -100 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                transition={{ ease: "easeInOut", duration: .7 }}
+                                viewport={{ once: true }}
+                                className='container-engineer-card'>
+                                {blogs.svg}
+                                <p>{blogs.title}</p>
+                              </motion.div>
+                            </a>
+                        )
+                    })}
+                </div>
             </div>
         </section>
     )
 }
 
-export default Projects
+export default AboutMe

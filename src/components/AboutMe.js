@@ -39,7 +39,7 @@ function AboutMe() {
                         My current goal as an engineer is to always be learning
                         and expanding my skill set. Whether this involves
                         learning new technologies or expanding my knowledge
-                        on the inner workings of the tech I use day to day; I am
+                        on the inner workings of the tech I use day to day, I am
                         always happy absorbing new information.
                         While I am not coding though I do love to spend time
                         with my family and friends. Typical activities that

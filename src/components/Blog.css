@@ -1,7 +1,81 @@
-.blogs-container {
+.container-aboutme {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-about-knowledge {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: min(90%, 700px);
+    gap: var(--gap-standard);
+    margin: 3em 0 3em;
+}
+
+.container-about-knowledge .goTo {
+    color: white
+}
+
+.resume-link {
+    text-decoration: none;
+}
+
+.button-resume {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding: var(--p-1);
+    margin: var(--m-2);
+    font-size: var(--font-small);
+    width: 150px;
+    color: white;
+    outline: none;
+    border: 2px solid black;
+    /* background-color: var(--secondary); */
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: inset 0 0 0 0 var(--contrast);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.slide-right:hover {
+    cursor: pointer;
+    color: black;
+    box-shadow: inset 400px 0 0 0 var(--contrast);
+}
+
+.container-engineer-card {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-standard);
+    background-color: var(--secondary-middle);
+    box-shadow: 0 8px 20px black;
+    padding: var(--p-4);
+    border-radius: 20px;
+}
+
+.container-back-end p,
+.container-front-end p {
+    font-size: var(--font-small);
+}
+
+.goTo:hover {
+    color: blue
+}
+
+/* medium */
+@media screen and (min-width: 48em) {
+    .container-about-knowledge {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
