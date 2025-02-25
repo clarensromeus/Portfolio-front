@@ -1,4 +1,4 @@
-// import jobly-img.webp from '../images'
+
 import thirdy from '../images/Thirdy.png'
 import Techadmin from "../images/students.png"
 import voteSystem from "../images/votesystem.png"
