@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f30504f.css",
-    "main.js": "/static/js/main.48646573.js",
-    "static/js/787.7efd31bd.chunk.js": "/static/js/787.7efd31bd.chunk.js",
+    "main.css": "/static/css/main.3b29d706.css",
+    "main.js": "/static/js/main.2fad3b85.js",
+    "static/js/453.69f3745b.chunk.js": "/static/js/453.69f3745b.chunk.js",
     "static/media/students.png": "/static/media/students.81f80cab5f559e5e77bd.png",
+    "static/media/Mychat.png": "/static/media/Mychat.d168294d04ee479d094f.png",
+    "static/media/chicstore.png": "/static/media/chicstore.2a44c61169197aacdf13.png",
     "static/media/Thirdy.png": "/static/media/Thirdy.de8328c5650b9cda5007.png",
     "static/media/Rubik-VariableFont_wght.ttf": "/static/media/Rubik-VariableFont_wght.8b975fd73aa3f560c113.ttf",
-    "static/media/deep-dark-space-destkop-backgrounds.webp": "/static/media/deep-dark-space-destkop-backgrounds.98d2c99dd749a688e2b1.webp",
+    "static/media/votesystem.png": "/static/media/votesystem.65f95b9ab403e4ce5357.png",
     "static/media/RussoOne-Regular.ttf": "/static/media/RussoOne-Regular.b2f5b287ccb8fd446eae.ttf",
-    "static/media/shaka.webp": "/static/media/shaka.be09dbcdc13b97dd20ea.webp",
     "index.html": "/index.html",
-    "main.2f30504f.css.map": "/static/css/main.2f30504f.css.map",
-    "main.48646573.js.map": "/static/js/main.48646573.js.map",
-    "787.7efd31bd.chunk.js.map": "/static/js/787.7efd31bd.chunk.js.map"
+    "main.3b29d706.css.map": "/static/css/main.3b29d706.css.map",
+    "main.2fad3b85.js.map": "/static/js/main.2fad3b85.js.map",
+    "453.69f3745b.chunk.js.map": "/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f30504f.css",
-    "static/js/main.48646573.js"
+    "static/css/main.3b29d706.css",
+    "static/js/main.2fad3b85.js"
   ]
 }

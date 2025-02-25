@@ -1,8 +1,19 @@
 // import jobly-img.webp from '../images'
 import thirdy from '../images/Thirdy.png'
 import Techadmin from "../images/students.png"
+import voteSystem from "../images/votesystem.png"
+import chicstore from "../images/chicstore.png"
+import Mychat from "../images/Mychat.png"
 
 const projects = [
+    {   
+        image: `${voteSystem}`,
+        title: 'Votesystem',
+        description: 'a voting system project with dynamic and eye-catching features, develop and design with a scalable and enticing workflow from the ground up, implement voting features such as instant voting, Candidates results, positioning, and analytics dashboard',
+        note: 'Note that I free online cloud database so my projects will require 10-30 seconds to load upon start',
+        website: "https://github.com/clarensromeus/Votesystem",
+        github: "https://github.com/clarensromeus/Votesystem",
+    },
     {   
         image: `${thirdy}`,
         title: 'Thirdy',
@@ -11,7 +22,22 @@ const projects = [
         website: "https://github.com/clarensromeus/Thirdy",
         github: "https://github.com/clarensromeus/Thirdy",
     },
-
+    {   
+        image: `${chicstore}`,
+        title: 'Chicstore',
+        description: 'an e-commerce project built with high-level features and top-leading technologies, developed with React, Node.js, and MongoDB, with a focus on scalability and security, it contains both an user and admin-friendly interface',
+        note: 'Note that I free online cloud database so my projects will require 10-30 seconds to load upon start',
+        website: "https://github.com/clarensromeus/Votesystem",
+        github: "https://github.com/clarensromeus/Votesystem",
+    },
+    {   
+        image: `${Mychat}`,
+        title: 'MyChat',
+        description: 'a messaging social network project built with high-level features and top-leading technologies, developed with React, Redux Toolkit, Node.js, and MongoDB, with a focus on scalability and security, it has functional and competitive features like instant messaging, notifications, one-on-one video calling, user online status, typing indicator and many more',
+        note: 'Note that I free online cloud database so my projects will require 10-30 seconds to load upon start',
+        website: "https://github.com/clarensromeus/Votesystem",
+        github: "https://github.com/clarensromeus/Votesystem",
+    },
     {
         image: `${Techadmin}`,
         title: 'TechAdmin',
